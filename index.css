@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #1a1b21;
+    text-align: center;
+}
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+
+.card-content{
+    width: 55%;
+    align-items: center;
+}
+
+.details{
+    padding: 1.5rem 1rem 1rem 1rem;
+}
+.author-image{
+    width: 45%;
+    object-fit: cover;
+    height: auto;
+    
+}
+
+svg{
+    margin-right: 5px;
+}
+.email-logo{
+ width: 20px;  
+ margin-right: 5px; 
+}
+
+header p{
+    color: #f3bf99;
+    margin-top: 0;
+}
+h1{
+    margin-top: 2rem;
+    margin-bottom: 0.2em;
+    font-size: 1.8rem;
+}
+header button{
+    margin-top: 1.5em;
+    padding: 9px 45px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 0.8em;
+}
+
+.linkedln{
+    background-color: #5093e2;
+    color: white;
+    padding: 9px 35px;
+}
+
+.about, .interests{
+    margin-top:0;
+    text-align: left;
+    margin: 0 auto;
+    padding: 1.5rem 3rem 0rem 3rem;
+    max-width: 600px;
+    line-height: 1.4rem;
+}
+
+.interests{
+    padding-top: 0;
+    padding-bottom: 3em;
+}
+
+section h1{
+    font-size: 1.5rem;
+}
+
+footer img{
+    width: 30px;
+    margin-right: 1.5em;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em 0em;
+    background-color: #161619;
+}
+
+@media (max-width: 700px) {
+    .card{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .author-image{
+        width: 100%;
+    }
+    .card-content{
+        width: 100%;
+    }
+    .details{
+        padding: 1.5rem 1rem 1rem 1rem;
+    }
+    .about, .interests{
+        padding: 1.5rem 1rem 0rem 2rem;
+    }
+    .interests{
+        padding-bottom: 3.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}
